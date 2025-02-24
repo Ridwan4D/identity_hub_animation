@@ -563,16 +563,17 @@
 }
 
 /* Adding a gradient border using a pseudo-element */
-.swiper-pagination-bullet-active::after {
+.swiper-pagination-bullet-active::before {
     content: "";
     position: absolute;
-    top: -2px;
-    left: -2px;
+    top: -6px;
+    left: -6px;
     right: -2px;
     bottom: -2px;
+    height: 22px;
+    width: 22px;
     border-radius: 50%;
     padding: 2px;
-
     background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
     -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
     -webkit-mask-composite: destination-out;
