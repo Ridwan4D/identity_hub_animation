@@ -1,0 +1,329 @@
+@media (min-width:1880px) {
+
+    .ellips_15,
+    .blue_bg_img {
+        display: block !important;
+    }
+}
+
+@media(max-width:1440px) {
+    /* .apart_content {
+        top: 500px;
+        left: 10%;
+    } */
+}
+
+@media(max-width:1200px) {
+
+    /* service section start */
+    #service_section,
+    #testimonial_section {
+        padding: 0px 15px;
+    }
+
+    .service_card_title {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    /* service section end */
+    /* choose section start */
+    .choose_big_card {
+        gap: 50px;
+    }
+
+    /* choose section end */
+
+    /* pricing section start */
+    .pricing_price {
+        font-size: 60px;
+    }
+
+    /* pricing section end */
+
+    /* ------ apart section start -------- */
+    .apart_content {
+        top: 100px;
+    }
+
+    .apart_title_span::after {
+        content: "";
+    }
+
+    /* ------ apart section end -------- */
+
+    /* ------ footer section start -------- */
+    #footer_section {
+        margin-top: 0px;
+    }
+
+    /* ------ footer section end -------- */
+}
+
+@media(max-width:768px) {
+    .container {
+        padding: 0 10px !important;
+    }
+
+    .navbar {
+        margin: 0 10px;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0;
+    }
+
+    /* hero section start */
+    .hero_bg_blur_div {
+        height: 500px;
+        width: 90%;
+        left: 0;
+    }
+
+    .hero_title {
+        font-size: 49px;
+        line-height: 67px;
+    }
+
+    .hero_card,
+    .hero_right_card>.hero_card {
+        width: 70%;
+    }
+
+    /* hero section end */
+
+    /* service section start */
+    #service_section {
+        padding: 0px 15px !important;
+    }
+
+    /* service section end */
+
+    /* choose section end */
+    .choose_big_card {
+        gap: 60px;
+    }
+
+    /* choose section end */
+
+    /* testimonial section start */
+    .go_prev {
+        left: 0px;
+    }
+
+    .go_next {
+        right: 0px;
+    }
+
+    /* testimonial section end */
+    /* ------ apart section start -------- */
+    #apart_section {
+        padding: 75px 0 !important;
+        margin-top: 70px;
+    }
+
+    .apart_content {
+        top: 0;
+    }
+
+    .apart_bg_container {
+        left: 24%;
+    }
+
+    .apart_title_span::after {
+        content: "";
+    }
+
+    /* ------ apart section end -------- */
+
+    /* ------ footer section start -------- */
+    #footer_section {
+        margin-top: 0px;
+    }
+
+    .footer_list {
+        margin: 0;
+    }
+
+    /* ------ footer section end -------- */
+}
+
+
+
+@media(max-width:600px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    /* ------ navbar start -------- */
+    .nav_container {
+        margin: 0;
+    }
+
+    .navbar {
+        padding: 10px 0;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0;
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    /* ------ navbar end -------- */
+
+    /* ------ hero section start -------- */
+    .hero_bg_blur_div {
+        height: 500px;
+        width: 100%;
+        left: 0;
+    }
+
+    .hero_header {
+        padding-top: 35px;
+    }
+
+    .hero_title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .hero_title_span::after {
+        left: -79px;
+        top: 22px;
+    }
+
+    .hero_desc {
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .circle_3,
+    .circle_2,
+    .circle_1_1,
+    .circle_1 {
+        display: none;
+    }
+
+    .hero_title_span::after {
+        content: none;
+        width: 264px;
+        height: 6px;
+        position: absolute;
+        left: -17px;
+        top: 28px;
+    }
+
+    .hero_card,
+    .hero_right_card>.hero_card {
+        width: 100%;
+    }
+
+    /* ------ hero section end -------- */
+
+
+    /* ------ service section start -------- */
+    #service_section {
+        padding: 0px 15px;
+    }
+
+    .service_desc {
+        font-size: 18px;
+    }
+
+    /* ------ service section end -------- */
+
+    /* ------ choose section start -------- */
+    #choose_section {
+        padding: 40px 0 !important;
+    }
+
+    .choose_big_card {
+        padding: 7px;
+        gap: 30px;
+    }
+
+    .choose_card_descs {
+        font-size: 16px !important;
+    }
+
+    .choose_card_images {
+        width: 100%;
+    }
+
+    .package_spring_img {
+        top: -126px;
+        width: 30%;
+    }
+
+    /* ------ choose section end -------- */
+
+    /* ------ pricing section start -------- */
+    .pricing_price {
+        font-size: 56px;
+    }
+
+    /* ------ pricing section end -------- */
+
+
+    /* ------ testimonial section start -------- */
+    .testimonial_container {
+        padding: 1px;
+    }
+
+    .slider_item {
+        margin-right: 0 !important;
+        padding: 10px !important;
+    }
+
+    .testimonial_review {
+        font-size: 16px;
+    }
+
+    .go_prev {
+        left: 0px;
+    }
+
+    .go_next {
+        right: 0px;
+    }
+
+    /* ------ testimonial section end -------- */
+
+    /* ------ apart section start -------- */
+    #apart_section {
+        padding: 55px 0 !important;
+        margin-top: 35px;
+    }
+
+    .apart_content {
+        top: 0;
+    }
+
+    .apart_bg_container {
+        left: -19px;
+    }
+
+    .apart_title_span::after {
+        content: "";
+    }
+
+    .apart_title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    /* ------ apart section end -------- */
+
+    /* ------ footer section start -------- */
+    #footer_section {
+        margin-top: 0px;
+    }
+
+    /* ------ footer section end -------- */
+}
