@@ -264,32 +264,6 @@
     background: linear-gradient(to right, var(--gradient-two), var(--gradient-one));
 }
 
-.hero_card {
-    height: 64px;
-    border-radius: 16px;
-    padding: 10px;
-    background: linear-gradient(to bottom right, rgba(27, 28, 54, 0.4), rgba(112, 113, 122, 0.4));
-}
-
-.hero_card_img_div {
-    padding: 7px;
-    background: rgba(143, 143, 143, 0.349);
-    border-radius: 12px;
-}
-
-.hero_card_call_img {
-    width: 29px;
-    height: 29px;
-}
-
-.hero_card_title {
-    font-size: 14px;
-}
-
-.hero_card_info {
-    white-space: nowrap;
-}
-
 /* --------- hero section end -------------- */
 
 
@@ -718,12 +692,44 @@
 
 /* --------- footer section end -------------- */
 
-.rotate_360 {
-    animation: spin 10s linear infinite;
+.rotate_360_div {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    /* background: red; */
+}
+
+.card_1 {
+    top: 0;
+    left: 0;
+}
+
+.card_2 {
+    top: 0;
+    right: 0;
+}
+
+.card_3 {
+    bottom: 0;
+    left: 0;
+}
+
+.card_4 {
+    bottom: 0;
+    right: 0;
+}
+
+.productivity_img {
+    width: 60%;
+}
+
+.rotate_360,
+.rotate_360_N {
+    animation: spin 15s linear infinite;
 }
 
 .rotate_360_N {
-    animation: spin_reverse 20s linear infinite;
+    animation-direction: reverse;
 }
 
 
