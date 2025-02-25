@@ -18,7 +18,7 @@
     /* service section start */
     #service_section,
     #testimonial_section {
-        padding: 0px 15px;
+        padding: 20px 15px;
     }
 
     .service_card_title {
@@ -87,6 +87,20 @@
     .hero_card,
     .hero_right_card>.hero_card {
         width: 70%;
+    }
+
+    .rotate_360_div {
+        margin-top: 60px;
+        width: 450px;
+        height: 450px;
+        /* background: red; */
+    }
+
+    .card_1,
+    .card_2,
+    .card_3,
+    .card_4 {
+        width: 40%;
     }
 
     /* hero section end */

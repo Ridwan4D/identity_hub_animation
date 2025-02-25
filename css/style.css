@@ -46,6 +46,7 @@
     background-image: url('../images/hero_bg.png');
 }
 
+
 /* --------- navbar section start -------------- */
 .navbar {
     padding: 10px 12px;
@@ -271,11 +272,6 @@
 #service_section {
     padding: 100px 10px;
 }
-
-#service_section>.nav_end_btn {
-    padding: 5px 14px 7px 15px;
-}
-
 #service_section>.nav_end_btn::before {
     box-shadow:
         inset 0 0 10px rgba(221, 220, 220, 0.16),
@@ -520,6 +516,11 @@
 
 
 /* --------- slider section student -------------- */
+
+.testimonial_intro_btn {
+    padding: 5px 9px 7px;
+}
+
 .slider_item,
 .testimonial_container {
     background: linear-gradient(to right, rgba(51, 51, 62, 0.192), rgba(83, 84, 108, 0.303));
@@ -545,7 +546,6 @@
 
 .swiper-pagination-bullet {
     background-color: white !important;
-    opacity: 0.6;
     width: 10px;
     height: 10px;
     transition: all 0.3s ease;
@@ -555,7 +555,6 @@
 }
 
 .swiper-pagination-bullet-active {
-    background-color: white !important;
     opacity: 1;
     width: 10px;
     height: 10px;
@@ -692,11 +691,19 @@
 }
 
 /* --------- footer section end -------------- */
+/* common btn */
+.common_b_gradient_btn {
+    padding: 5px 14px 7px 15px !important;
+}
+
+/* common btn */
+
+
 
 .rotate_360_div {
-    width: 500px;
+    margin-top: 120px;
+    width: 700px;
     height: 500px;
-    margin-top: 100px;
     /* background: red; */
 }
 
@@ -726,7 +733,7 @@
 
 .rotate_360,
 .rotate_360_N {
-    animation: spin 15s linear infinite;
+    animation: spin 20s linear infinite;
 }
 
 .rotate_360_N {
